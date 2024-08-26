@@ -273,6 +273,12 @@ body {
     transition: opacity 0.2s;
     opacity: 0;
 }
+.card2 h2{
+    margin-top:-10px;
+}
+.card2 img{
+    width:7%;
+}
  .active{
     display: block;
      transition: opacity 0.5s;
@@ -284,3 +290,27 @@ body {
      width: 10%;
      aspect-ratio: 1;
  }
+ @media (max-width: 1030px) {
+     .card{
+         font-size: 13px;
+     }
+     .card2 h2{
+         margin:0;
+     }
+ }
+ @media (max-width: 760px) {
+  .card{
+      font-size:10px;
+  }
+ }
+@media (max-width: 550px) {
+    .card{
+        font-size:8px;
+    }
+}
+@media (max-width: 450px) {
+    .card{
+        font-size: 9px;
+        width:70vw;
+    }
+}
