@@ -248,7 +248,7 @@ window.onload = function() {
     setTimeout(function() {
 
         popup.classList.add('active')
-    }, 6000); // 10 секунд (10000 миллисекунд)
+    }, 4500); // 10 секунд (10000 миллисекунд)
 };
 let close=document.querySelector('.img')
 close.addEventListener('click', ()=>{
