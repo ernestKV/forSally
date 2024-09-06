@@ -73,7 +73,33 @@ body {
     width: 10%;
     aspect-ratio: 1;
 }
-@media (max-width: 800px) {
+
+
+
+
+@media (max-width: 950px) {
+    .card{
+        font-size: 55%;
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 640px) {
+    .card{
+        font-size: 55%;
+        width: 45vw;
+    }
+}
+@media (max-width: 530px) {
+    .card{
+        width:60vw;
+    }
+}
+@media (max-width: 450px) {
+    .card{
+        font-size: 55%;
+    }
+}
+/* @media (max-width: 800px) {
     .card{
         font-size: 50%;
         padding-bottom: 40px;
@@ -90,7 +116,7 @@ body {
         width:60vw;
     }
 }
-
+ */
 /* .card{
     text-align: center;
     position: absolute;
